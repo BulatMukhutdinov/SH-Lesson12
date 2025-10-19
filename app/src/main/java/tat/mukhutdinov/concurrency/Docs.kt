@@ -448,7 +448,7 @@ val foo16 = Unit
 /**
  * We can take this weather example a step further and see how coroutines can be useful in parallel decomposition of work.
  * Parallel decomposition involves taking a problem and breaking it into smaller subtasks that can be solved in parallel.
- * When the results of the subtasks are ready, цу can combine them into a final result.
+ * When the results of the subtasks are ready, we can combine them into a final result.
  *
  * In your code, extract out the logic of the weather report from the body of ```runBlocking()``` into a single ```getWeatherReport()``` function that returns the combined string of ```Sunny 30°C```.
  *
@@ -731,23 +731,6 @@ val foo26 = Unit
  * If there's an exception in the producer, then the consumer will get that exception if it's not handled, and the coroutine will fail.
  * However, if the producer is able to catch and handle the exception,
  * then the consumer won't see that exception and will see a valid result.
- *
- * Here's the ```getWeatherReport()``` code again for reference:
- * ```
- * suspend fun getWeatherReport() = coroutineScope {
- *     val forecast = async { getForecast() }
- *     val temperature = async {
- *         try {
- *             getTemperature()
- *         } catch (e: AssertionError) {
- *             println("Caught exception $e")
- *             "{ No temperature found }"
- *         }
- *     }
- *
- *     "${forecast.await()} ${temperature.await()}"
- * }
- * ```
  *
  * In this case, the producer (```async()```) was able to catch and handle the exception and still return a ```String``` result of ```"{ No temperature found }"```.
  * The consumer (```await()```) receives this ```String``` result and doesn't even need to know that an exception happened.
