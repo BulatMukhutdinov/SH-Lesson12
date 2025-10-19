@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "tat.mukhutdinov.raceTracker"
+    namespace = "tat.mukhutdinov.marsPhotos"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "tat.mukhutdinov.racetracker"
+        applicationId = "tat.mukhutdinov.marsphotos"
         minSdk = 24
         targetSdk = 36
         versionCode = 1

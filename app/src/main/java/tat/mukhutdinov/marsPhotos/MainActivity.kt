@@ -1,4 +1,4 @@
-package tat.mukhutdinov.raceTracker
+package tat.mukhutdinov.marsPhotos
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -7,20 +7,19 @@ import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
-import tat.mukhutdinov.raceTracker.ui.RaceTrackerApp
-import tat.mukhutdinov.raceTracker.ui.theme.RaceTrackerTheme
+import tat.mukhutdinov.marsPhotos.ui.MarsPhotosApp
+import tat.mukhutdinov.marsPhotos.ui.theme.MarsPhotosTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            RaceTrackerTheme {
-                // A surface container using the 'background' color from the theme
+            MarsPhotosTheme {
                 Surface(
                     modifier = Modifier.fillMaxSize(),
                 ) {
-                    RaceTrackerApp()
+                    MarsPhotosApp()
                 }
             }
         }
