@@ -1,16 +1,17 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.jetbrains.kotlin.android)
+    alias(libs.plugins.compose.compiler)
 }
 
 android {
     namespace = "tat.mukhutdinov.raceTracker"
-    compileSdk = 34
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "tat.mukhutdinov.racetracker"
         minSdk = 24
-        targetSdk = 34
+        targetSdk = 36
         versionCode = 1
         versionName = "1.0"
 
