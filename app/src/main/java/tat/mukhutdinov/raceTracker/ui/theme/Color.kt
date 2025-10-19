@@ -1,4 +1,4 @@
-package tat.mukhutdinov.lesson14racetracker.ui.theme
+package tat.mukhutdinov.raceTracker.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

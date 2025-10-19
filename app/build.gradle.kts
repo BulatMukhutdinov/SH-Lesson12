@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "tat.mukhutdinov.lesson14racetracker"
+    namespace = "tat.mukhutdinov.raceTracker"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "tat.mukhutdinov.lesson14racetracker"
+        applicationId = "tat.mukhutdinov.racetracker"
         minSdk = 24
         targetSdk = 34
         versionCode = 1

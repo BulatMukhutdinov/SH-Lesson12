@@ -1,4 +1,4 @@
-package tat.mukhutdinov.lesson14racetracker.ui
+package tat.mukhutdinov.raceTracker.ui
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf

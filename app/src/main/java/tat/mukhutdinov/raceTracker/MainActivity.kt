@@ -1,4 +1,4 @@
-package tat.mukhutdinov.lesson14racetracker
+package tat.mukhutdinov.raceTracker
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -7,8 +7,8 @@ import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
-import tat.mukhutdinov.lesson14racetracker.ui.RaceTrackerApp
-import tat.mukhutdinov.lesson14racetracker.ui.theme.RaceTrackerTheme
+import tat.mukhutdinov.raceTracker.ui.RaceTrackerApp
+import tat.mukhutdinov.raceTracker.ui.theme.RaceTrackerTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

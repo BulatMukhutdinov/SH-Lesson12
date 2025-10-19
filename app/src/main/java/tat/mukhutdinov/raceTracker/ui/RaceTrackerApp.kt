@@ -1,4 +1,4 @@
-package tat.mukhutdinov.lesson14racetracker.ui
+package tat.mukhutdinov.raceTracker.ui
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -34,8 +34,8 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
-import tat.mukhutdinov.lesson14racetracker.R
-import tat.mukhutdinov.lesson14racetracker.ui.theme.RaceTrackerTheme
+import tat.mukhutdinov.raceTracker.R
+import tat.mukhutdinov.raceTracker.ui.theme.RaceTrackerTheme
 
 @Composable
 fun RaceTrackerApp() {

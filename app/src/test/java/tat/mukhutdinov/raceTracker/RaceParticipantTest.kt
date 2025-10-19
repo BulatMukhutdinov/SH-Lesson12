@@ -1,6 +1,6 @@
-package tat.mukhutdinov.lesson14racetracker
+package tat.mukhutdinov.raceTracker
 
-import tat.mukhutdinov.lesson14racetracker.ui.RaceParticipant
+import tat.mukhutdinov.raceTracker.ui.RaceParticipant
 
 class RaceParticipantTest {
     private val raceParticipant = RaceParticipant(

@@ -1,4 +1,4 @@
-package tat.mukhutdinov.lesson14racetracker.ui.theme
+package tat.mukhutdinov.raceTracker.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle
